@@ -7,6 +7,5 @@ global:
 scrape_configs:
   - job_name: 'prometheus'
     scrape_interval: 5s
-    port: 443
     static_configs:
-      - targets: ['notion-echo-staging.up.railway.app']
+      - targets: ['notion-echo-staging.up.railway.app:443']
