@@ -9,4 +9,4 @@ scrape_configs:
     scrape_interval: 5s
     scheme: https
     static_configs:
-      - targets: ['notion-echo-staging.up.railway.app:443']
+      - targets: ['notion.fulvio.dev:443']
